@@ -1,4 +1,5 @@
-﻿SELECT @@VERSION;---checking version of SQL
+```sql
+SELECT @@VERSION;---checking version of SQL
 
 go
 CREATE TABLE Applicants (---Creating table command with certain columns
@@ -331,4 +332,7 @@ INTO Applicants2
 FROM Applicants;
 
 SELECT LastName, FirstName, City, Age, Grade, Hight, Weight, Eye_Colour, Gender----------rearranging the table columns
+
+```
+
 FROM applicants2;
